@@ -95,7 +95,7 @@ export default function Home(){
 
   return (
     <div style={{minHeight:'100vh',background:'#0b0b0b',color:'#f0ede8',fontFamily:"'Inter',sans-serif",position:'relative',overflowX:'hidden'}}>
-      <canvas ref={canvasRef} style={{position:'fixed',inset:0,zIndex:0,opacity:0.5}} />
+      <canvas ref={canvasRef} style={{position:'fixed',inset:0,zIndex:0,opacity:0.3,pointerEvents:'none'}} />
 
       <aside style={{position:'fixed',left:0,top:0,height:'100%',width:280,background:'#111',borderRight:'1px solid rgba(242,202,80,0.08)',zIndex:40,padding:'40px 0',display:'flex',flexDirection:'column'}}>
         <div style={{padding:'0 32px 48px'}}>
